@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700;800;900&family=Poppins:wght@200;400;500;600;700;800;900&display=swap");
 /* shared styles */
-.hide-main{
-    display: none;
+.hide-main {
+  display: none;
 }
 * {
   margin: 0;
@@ -139,4 +139,34 @@ nav {
   font-weight: 500;
   outline: none;
   border: none;
+}
+/* main styles */
+main {
+  max-width: 1140px;
+  margin: auto;
+}
+.collage-items {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  grid-template-rows: repeat(2, 789px);
+}
+
+.collage-items img {
+  border-radius: 8px;
+  width: 100%;
+}
+
+.img1 {
+  align-self: end;
+}
+.img3 {
+  align-self: end;
+}
+.design-row h2 {
+  width: 448px;
+  color: #33;
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 500;
 }
