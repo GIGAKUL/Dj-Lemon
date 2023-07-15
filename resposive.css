@@ -1,3 +1,43 @@
-@media screen and (max-width:576px)  {
-    
+/* mobile */
+
+@media screen and (max-width: 576px) {
+    .hide{
+        display: none;
+    }
+ 
+    .unhappy {
+    margin-left: 0;
+  }
+  .unhappy h3 {
+    font-size: 12px;
+  }
+  .unhappy p {
+    width: auto;
+    font-size: 24px;
+  }
+  .emotion {
+    margin-left: 0;
+  }
+  .banner-image {
+    height: 145px;
+    width: 100%;
+  }
+  header {
+    padding: 13px 10px 0 10px;
+  }
+  .logo strong {
+    font-size: 24px;
+}
+.menu li a {
+      font-size: 14px;
+      margin-left: 10px;
+      
+
+  }
+  .hide-main{
+    display: block;
+  }
+  .hide-main i{
+     font-size: 24px;
+  }
 }
