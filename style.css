@@ -145,6 +145,9 @@ main {
   max-width: 1140px;
   margin: auto;
 }
+.design{
+    margin: 194px 0 219px 0;
+}
 .collage-items {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -165,8 +168,18 @@ main {
 }
 .design-row h2 {
   width: 448px;
-  color: #33;
-  font-family: Poppins;
+  color: #333;
   font-size: 36px;
   font-weight: 500;
+}
+.collage-items p{
+font-size: 14px;
+font-weight: 300;
+font-family: "Poppins", sans-serif;
+}
+.collage-items h2{
+    color: #333;
+font-family: "Poppins", sans-serif;
+font-size: 24px;
+font-weight: 500;
 }
