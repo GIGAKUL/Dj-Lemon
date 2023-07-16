@@ -16,8 +16,8 @@ ul {
 a {
   text-decoration: none;
 }
-p{
-  color: #4F4F4F;
+p {
+  color: #4f4f4f;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
 }
@@ -189,7 +189,9 @@ main {
 }
 
 /* service */
-
+.services{
+margin-top: 200px;
+}
 .service-container h3 {
   width: 346px;
   color: #333;
@@ -198,8 +200,12 @@ main {
   font-weight: 500;
   margin-bottom: 2.625rem;
 }
-.card {
+.service-card-container{
   display: flex;
+  gap: 4.375rem;
+}
+.card{
+  padding: 46px 34px;
 }
 .card h4 {
   color: #333;
@@ -207,10 +213,37 @@ main {
   font-size: 1.5rem;
   font-weight: 700;
   margin-top: 2.18rem;
-  margin-bottom: 1.5rem ;
+  margin-bottom: 1.5rem;
 }
-.card p{
+.card p {
   font-size: 1rem;
   margin-bottom: 1.87rem;
 }
-.btn 
+.card2 {
+  border-radius: 24px;
+  background: #fff;
+  box-shadow: 0px 10px 30px 0px rgba(51, 51, 51, 0.1);
+}
+.btn {
+  color: #828282;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 9px 12px;
+  border-radius: 12px;
+  border: none;
+}
+.btn2 {
+  background: #2d9cdb;
+  color: white;
+}
+.cursor{
+  position: relative;
+  left: 130px;
+  top: 70px;
+  display: inline;
+}
+.cursor i{
+  rotate: -15deg;
+  font-size:2.5rem ;
+}

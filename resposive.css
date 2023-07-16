@@ -93,4 +93,22 @@
     font-size: 24px;
     font-weight: 500;
   }
+
+.services{
+  margin-top: 50px;
+  padding: 15px;
+}
+  .service-card-container{
+    flex-direction: column;
+    gap: 20px;
+
+    
+  }
+  .service-container h3 {
+    width: auto;
+    margin-bottom: 20px;
+  }
+  .design {
+    margin: 50px 0 50px 0;
+}
 }
