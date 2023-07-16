@@ -16,7 +16,11 @@ ul {
 a {
   text-decoration: none;
 }
-
+p{
+  color: #4F4F4F;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
 /* nav styles */
 header {
   padding: 42px 56px 0 56px;
@@ -145,8 +149,8 @@ main {
   max-width: 1140px;
   margin: auto;
 }
-.design{
-    margin: 194px 0 219px 0;
+.design {
+  margin: 194px 0 219px 0;
 }
 .collage-items {
   display: grid;
@@ -172,14 +176,41 @@ main {
   font-size: 36px;
   font-weight: 500;
 }
-.collage-items p{
-font-size: 14px;
-font-weight: 300;
-font-family: "Poppins", sans-serif;
+.collage-items p {
+  font-size: 14px;
+  font-weight: 300;
+  font-family: "Poppins", sans-serif;
 }
-.collage-items h2{
-    color: #333;
-font-family: "Poppins", sans-serif;
-font-size: 24px;
-font-weight: 500;
+.collage-items h2 {
+  color: #333;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
 }
+
+/* service */
+
+.service-container h3 {
+  width: 346px;
+  color: #333;
+  font-family: "Poppins", sans-serif;
+  font-size: 2.25rem;
+  font-weight: 500;
+  margin-bottom: 2.625rem;
+}
+.card {
+  display: flex;
+}
+.card h4 {
+  color: #333;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 2.18rem;
+  margin-bottom: 1.5rem ;
+}
+.card p{
+  font-size: 1rem;
+  margin-bottom: 1.87rem;
+}
+.btn 
