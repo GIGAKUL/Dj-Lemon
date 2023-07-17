@@ -4,6 +4,10 @@
   .hide {
     display: none;
   }
+  *{
+    margin: 0;
+    padding: 0;
+  }
 
   .unhappy {
     margin-left: 10px;
@@ -110,7 +114,63 @@
   .design {
     margin: 50px 0 50px 0;
   }
+  .seemore {
+    display: inline-flex;
+    gap: 13px;
+    color: #2d9cdb;
+    left: 15px;
+    bottom: 0px;
+  }
   .cursor {
     left: 95px;
+  }
+  .team-container{
+    flex-direction: column;
+    padding:0 15px;
+    align-items: baseline;
+    gap: 50px;
+  }
+  .team-images {
+    gap: .5rem;
+  }.member-img3{
+    margin-top: .5rem;
+  }
+.team-container{
+  margin-bottom: 50px;
+}
+
+
+  .testimoni-container h2 {
+    font-size: 1.25rem;
+    margin-bottom: 26px;
+  }
+  .testi-image {
+    gap: 15px;
+  }
+
+  .testi-image-des h4 {
+    font-size: 1.25rem;
+    margin-top: 12px;
+  }
+  .testi-image-des p {
+    font-size: 12px;
+  }
+  .Testimoni{
+    padding:0 15px;
+    margin-bottom: 50px;
+  }
+.footer{
+  height: auto;
+  padding-top: 20px;
+}
+  .footer-container{
+    text-align: center;
+    flex-direction: column;
+      padding:15px;
+      width: 100%;
+      align-items: center;
+  }
+  .socials-icon{
+    justify-content: center;
   }
 }
